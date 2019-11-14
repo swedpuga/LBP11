@@ -8,15 +8,15 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
 public class TC001 {
-
-	@Test
-	public void login() {
+		
+		public static void main(String[] args) {
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-		driver.get("http://magento.com");
+		driver.get("http://uniformm1.upskills.in");
 		driver.findElement(By.className("fa-user")).click();
 		driver.quit();
 		
 	}
+
 }
