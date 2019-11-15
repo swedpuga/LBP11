@@ -65,6 +65,7 @@ public class ufm009 {
 		unifHeaderPOM.viewCartLink();
 		shoppingCartPOM.clickRemoveBtn();
 		shoppingCartPOM.assertCartEmptyMess();
+		screenShot.captureScreenShot("CartEmptyMessage");
 
 	}
 

@@ -60,6 +60,7 @@ public class ufm008 {
 		unifYTShrtAddToCartPage.selectSize("28");
 		unifYTShrtAddToCartPage.clickAddToCart();
 		unifYTShrtAddToCartPage.assertSuccMess1();
+		screenShot.captureScreenShot("ProductAddedSuccMssg");
 		unifHeaderPOM.viewCartLink();
 
 	}

@@ -68,6 +68,7 @@ public class ufm007 {
 		unifChaneMyPassPage.sendNewPassword("sneha");
 		unifChaneMyPassPage.sendConfirmNewPassword("snaeh");
 		unifChaneMyPassPage.clickContinueBtn();
+		screenShot.captureScreenShot("PasswordChangeErrMssg");
 		unifChaneMyPassPage.assertErrMssg1();
 	
 	}
