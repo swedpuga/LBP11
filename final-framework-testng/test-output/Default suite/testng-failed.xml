@@ -6,9 +6,9 @@
       <class name="com.training.sanity.tests.ufm008">
         <methods>
           <include name="tearDown"/>
-          <include name="validLoginTest"/>
           <include name="setUp"/>
           <include name="setUpBeforeClass"/>
+          <include name="ProductAddTest"/>
         </methods>
       </class> <!-- com.training.sanity.tests.ufm008 -->
     </classes>
