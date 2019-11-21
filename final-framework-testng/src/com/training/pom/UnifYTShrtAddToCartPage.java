@@ -40,6 +40,6 @@ public class UnifYTShrtAddToCartPage {
 		a=a-2;
 		SuccMess = SuccMess.substring(0, a);
 		SuccMess = SuccMess.trim();
-		Assert.assertEquals("Success: You have added REGULAR T-SHIRTS (YELLOW) to your shopping cart!",SuccMess);
+		Assert.assertEquals(SuccMess,"Success: You have added REGULAR T-SHIRTS (YELLOW) to your shopping cart!");
 	}
 }
